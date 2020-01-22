@@ -79,6 +79,7 @@ a[data-title]:hover:after {
 .github-2nd-link a{
   line-height: normal;
   text-decoration: none;
+  font-style: italic;
 }
 
 .hover-text2 h3 {
