@@ -1,0 +1,125 @@
+img {
+  position: relative;
+  /* display: inline-block; */
+}
+
+img[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  top: 20px;
+  left: 8px;
+  font-size: 12px;
+  color: rgb(105, 16, 16);
+}
+
+[title] {
+  position: relative;
+}
+
+
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+/*
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #00FF00;
+  color: #111;
+  font-size: 150%;
+  position: absolute;
+  padding: 1px 5px 2px 5px;
+  bottom: -1.6em;
+  left: 100%;
+  white-space: nowrap;
+  box-shadow: 1px 1px 3px #222222;
+  opacity: 0;
+  border: 1px solid #111111;
+  z-index: 99999;
+  visibility: hidden;
+}
+[data-title] {
+  position: relative;
+} */
+
+.hover-text1 p, 
+.hover-text1 a,
+.github-2nd-link a{
+  position: relative;
+  display: inline-block;
+}
+
+p[data-title]:hover:after {
+  content: attr(data-title);
+  position: absolute;
+  top: 20px;
+  left: 8px;
+  font-size: 12px;
+  color: rgb(105, 16, 16);
+}
+
+a[data-title]:hover:after {
+  content: attr(data-title);
+  position: absolute;
+  top: 135px;
+  left: 12px;
+  width: 90%;
+  font-size: 16px;
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 3px #222222;
+  /* opacity: 0; */
+  border: 1px solid #111111;
+  border-radius: 6px;
+  /* white-space: nowrap; */
+}
+
+.github-2nd-link a{
+  line-height: normal;
+  text-decoration: none;
+}
+
+.hover-text2 h3 {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-text2 h3[data-title]:hover:after {
+  content: attr(data-title);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+  background-color: aliceblue;
+  color: rgb(29, 25, 25);
+  box-shadow: 1px 1px 3px #222222;
+  /* opacity: 0; */
+  border: 1px solid #111111;
+  border-radius: 6px;
+}
+
+/* img[data-title]:hover:after {
+  content: attr(data-title);
+  position: absolute;
+} */
+
+/* [data-title] {
+  position: relative;
+} */
+
+/*
+p {
+  position: relative;
+  display: inline-block;  
+}
+
+p[title]:hover:after {
+  content: attr(title);
+  position: absolute; 
+  font-size: small;
+  left: 5px;
+  top: 20px;
+} */
+
